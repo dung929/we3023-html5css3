@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5e8e4;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logo {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.canvas{
+    background-color: #ffffff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b6109;
+    padding: 10px;
+    align-items: baseline;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: aqua;
+}
+.search input{
+    padding: 8px;
+    width: 250px;
+    border-radius: 8px;
+}
+.search button{
+    padding: 8px;
+    background-color:#1b6109;
+    border-color: white;
+    border-radius: 8px;
+    color: aliceblue;
+}
+.search button:hover{
+    background-color: aqua;
+    color: blue;
+}
+.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+.content{
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.top-items img{
+    width: 100%;
+}
+.top-item img{
+    width: calc(100% 500px);
+}
+.text{
+    font-size: 8px;
+    background-color: #1b6109;
+    font-weight: 700;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 8px;
+}
+.top-items{
+    border: 1px solid #e5e8e4;
+}
+.top-items p {
+    margin-top: 8px;
+    color: #1b6109;
+    font-size: 12px;
+    margin-left: 8px;
+}
+.bottom{
+    border: 1px solid  #e5e8e4;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+.bottom-items{
+    align-items: baseline;
+    text-align: center;
+}
+.bottom-items h2{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #1b6109;
+}
+.bottom-items span{
+    color: yellow;
+}
+.footer{
+    background-color: #1b6109;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}

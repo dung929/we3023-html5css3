@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bai3.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="canvas">
+        <canvas id="myCanvas" width="300" height="200" class="logo"></canvas>
+    </div>
+        <div class="header">
+            <div class="menu">
+                <ul>
+                    <li><a href="">Trang chủ</a></li>
+                    <li><a href="">Nước hoa nữ</a></li>
+                    <li><a href="">Nước hoa nam</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <form action="">
+                    <input type="text" required>
+                    <button>Tìm kiếm</button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="content">
+            <div class="top">
+                <div class="top-items">
+                    <img src="/Layer 1.png" alt="">
+                    <div class="text">
+                        <h2>4 loại nước hoa giành cho mùa hè 2015</h2>
+                    </div>
+                </div>
+                <div class="top-items">
+                    <p>Eau de Toilette - Eau de Parfum?</p>
+                    <p>Chọn nước hoa cho cô dâu theo mùa cưới.</p>
+                    <p>Chọn nước hoa mùa hè theo tính cách.</p>
+                    <p>Nước hoa Pháp thiên đường mùi hương say đắm</p>
+                    <p>Nước hoa xách tay những mối nguy rình rập</p>
+                    <p>Khuyến mãi nhân dịp khai trương cửa hàng 10</p>
+                    <p>Eau de Toilette - Eau de Parfum?</p>
+                    <p>Khuyến mãi nhân dịp khai trương cửa hàng 10</p>
+                    <p>Eau de Toilette - Eau de Parfum?</p>
+                    <p>Nước hoa xách tay những mối nguy rình rập</p>
+                </div>
+                <div class="top-item">
+                    <img src="/Layer 6.png" alt="">
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="bottom-items">
+                    <img src="/Layer 3.png" alt="">
+                    <div>
+                        <h2>Very Sexy Platinum for Him</h2>
+                        <span>1.295.000</span>
+                    </div>
+                </div>
+                <div class="bottom-items">
+                    <img src="/Layer 2.png" alt="">
+                    <div>
+                        <h2>Viktor & Rolf Bon Bon</h2>
+                        <span>445.000</span>
+                    </div>
+                </div>
+                <div class="bottom-items">
+                    <img src="/Layer 8.png" alt="">
+                    <div>
+                        <h2>Euphoria Gold for women</h2>
+                        <span>1.895.000</span>
+                    </div>
+                </div>
+                <div class="bottom-items">
+                    <img src="/Layer 9.png" alt="">
+                    <div>
+                        <h2>Aqva Pour Hommeva</h2>
+                        <span>1.595.000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <span>Copyright © 2015 Design by Ochna</span>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    var ctx = document.getElementById('myCanvas').getContext('2d');
+
+    ctx.beginPath();
+    ctx.ellipse(100, 100, 60, 40, 0, 0, Math.PI * 2);
+    ctx.fillStyle = '#b1d238';
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.ellipse(120, 100, 40, 30, 0, 0, Math.PI * 2);
+    ctx.fillStyle = '#1b6109';
+    ctx.fill();
+
+    ctx.font = 'bold 25px UTM Duepuntozero';
+    ctx.fillStyle = 'White';
+    ctx.fillText('MY', 110, 108);
+
+    ctx.font = 'bold 25px UTM Duepuntozero';
+    ctx.fillStyle = 'black';
+    ctx.fillText('PERFUME', 158, 108);
+</script>
